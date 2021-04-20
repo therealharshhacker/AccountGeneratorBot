@@ -58,14 +58,14 @@ func randomFormat() string {
 		// Put your accounts here
 		// "email:pass",
 		// Following are some demo accounts
-		"sharan.thatsme@gmail.com:ganesha86",
-		"kushagra.khare04@gmail.com:9450461810",
-		"gaurav.apt@gmail.com:cashc0w",
-		"ananthusatheesh89@gmail.com:50thregenesis",
-		"ankitraghavec2015@gmail.com:akku_8802",
-		"jasmeetsingh2027@gmail.com:banaliid",
-		"ashishgupta0586@gmail.com:welcome",
-		"uferatanyeem@gmail.com:viewsonic20",
+		"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",
+		"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",
+		"sk_live_69GKI0saLB8uIEnxzv8VTvRX",
+		"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",
+		"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",
+		"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",
+		"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",
+		"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",
 	}
 
 	return formats[rand.Intn(len(formats))]
@@ -123,8 +123,7 @@ func gen(ctx *ext.Context) error {
 	Combo := strings.Split(randomFormat(), ":")
 	// Following string is replied to cmd user on /gen 
 	MSG = "𝙃𝙚𝙧𝙚 𝙄𝙨 𝙔𝙤𝙪𝙧 %v 𝘼𝙘𝙘𝙤𝙪𝙣𝙩" +
-		"\n\n𝙀𝙢𝙖𝙞𝙡: `%v`" +
-		"\n𝙋𝙖𝙨𝙨: `%v`" +
+		"\n\nSK: `%v`" +
 		"\n𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮: *%v*" +
 		"\n\n𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪 𝙛𝙤𝙧 𝙪𝙨𝙞𝙣𝙜 𝙢𝙚!\n❤️𝙎𝙝𝙖𝙧𝙚 & 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 *%v*❤️"
 
